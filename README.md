@@ -56,6 +56,14 @@ orchestration using airflow or aws stepfunctions as per requirements.
 This solution does not include scheduling of the job rather it has data pipeline solution which
 could be manually triggered daily and perform ingestion.
 
+## Replicating the Solution
+
+* Login to Databricks Account
+* Create a spark cluster
+* Import this repo to your desired workspace
+* Note: For community edition github integration might note be available
+so you will have to manually import all notebooks to your workspace.
+
 ## Conclusion
 
 * The above architecture holds clean and structured data in `processed layer` which
